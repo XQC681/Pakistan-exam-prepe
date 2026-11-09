@@ -22,7 +22,7 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------
 # Settings
 # --------------------------------------------------------------------------
-DEFAULT_MODEL = "gemini-2.5-flash"  # override with GEMINI_MODEL in secrets/env
+DEFAULT_MODEL = "gemini-3.5-flash"  # override with GEMINI_MODEL in secrets/env
 MAX_CHARS = 60000  # chapter text sent to the AI (longer text is cut)
 MIN_CHARS = 300  # minimum chapter length needed to make a paper
 MAX_INLINE_BYTES = 18 * 1024 * 1024  # largest PDF/image sent to Gemini
